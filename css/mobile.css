@@ -1,0 +1,67 @@
+@media only screen and (max-width: 492px) {
+  * {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+  .body {
+    max-width: 492px;
+    margin: 0 auto;
+}
+/* Banner chu trang tren img */
+  .img1 {
+    width: 492px;
+    height: auto;
+    position: relative;
+}
+  #banner {
+    position: absolute;
+    top: 15%;
+  }
+  /* Phan Navbar */
+  .container1 {
+    display: block;
+    margin-left: 30px;
+  
+  }
+  .container1 a:link {
+
+    border: none;
+    font-weight: 600;
+    height: 30px;
+    align-items: left;
+    justify-content: left;
+    font-size: 18px;
+  }
+  /* Muc tieu nghe nghiep va thong tin ca nhan */
+  .container2 {
+    display: block;
+    border-collapse: collapse;
+}
+  #target {
+    display: block;
+  }
+  #job-info {
+    width: 100%;
+    padding-top: 0px;
+  }
+  /* Phan kinh nghiem, hoc van, hoat dong, so thich, ngon ngu, ky nang */
+  .container3 {
+    
+    display:block;
+    width: 100%;
+    margin-left: 0px;
+    border-collapse: collapse;
+  }
+  .containerchild ul {
+    padding-top: 10px !important;
+  }
+  /* Phan chung chi giai thuong */
+  .grid2 {
+    display: block;
+  }
+  /* Phan Du an */
+  .container5 {
+    display: block;
+  }
+  }

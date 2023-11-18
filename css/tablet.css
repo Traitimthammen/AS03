@@ -1,0 +1,83 @@
+
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+  .body {
+    max-width: 768px;
+    margin: 0 auto;
+}
+/* Banner chu trang tren img */
+  .img1 {
+    width: 768px;
+    height: auto;   
+}
+#banner {
+  position:absolute;
+  top: 25%;
+}
+/* Phan Navbar */
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+    padding: 0 auto;
+    border-collapse: collapse;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .containerchild-1 h1 {
+    visibility: hidden;
+  }
+  .containerchild-1 span {
+    visibility: hidden;
+  }
+  /* Muc tieu nghe nghiep va thong tin ca nhan */
+  #target {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #target p {
+    text-align: justify;
+  }
+  #personal-info {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* Phan kinh nghiem, hoc van, hoat dong, so thich, ngon ngu, ky nang */
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-collapse: collapse;
+    justify-content:center;
+    margin: 0px auto;
+  }
+  
+  .cer1 {
+    display: block;
+  }
+  .cer1 img {
+    max-width: 100% !important;
+    height: auto;
+  }
+  .cer2 img {
+    max-width: 100% !important;
+    height: auto;
+    border-left: none;
+  }
+/* Phan chung chi giai thuong khong thay doi */
+/* Phan Du an */
+  .container5 {
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+}
+
